@@ -23,7 +23,7 @@ const LoginScreen = ({ changeScrenn }) => {
 
   const register = () => {
     if (!mail || !password) {
-      alert("Enter all data pleace!!!");
+      alert("Please fill out all fields");
       return;
     }
     console.log(`Email: ${mail}, Password: ${password}`);
